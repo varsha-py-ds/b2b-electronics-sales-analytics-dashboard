@@ -70,3 +70,20 @@ The report is organized into three interactive views with global **YTD (Apr–Oc
 ├── overview_mtd.png.png
 ├── overview_ytd.png.png
 └── README.md
+
+## 🧮 Key Metrics & Formula Logic
+
+Core KPI and variance calculations implemented across the report:
+
+```dax
+Gross Sales = SUM(Sales[Gross_Amount])
+
+Net Basic Sales = SUM(Sales[Basic_Amount])
+
+Avg Ticket Size = DIVIDE([Gross Sales], [Total Invoices])
+
+Sales YTD = TOTALYTD([Gross Sales], 'Calendar'[Date], "3-31")
+
+Sales MTD = TOTALMTD([Gross Sales], 'Calendar'[Date])
+
+YoY Growth % = DIVIDE([CY Metric] - [PY Metric], [PY Metric])
