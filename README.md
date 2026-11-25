@@ -19,16 +19,16 @@ The report is organized into three interactive views with global **YTD (Apr–Oc
 ## 📸 Screenshots
 
 ### Overview — YTD (Apr–Oct)
-![Overview YTD](images/overview_ytd.png)
+![Overview YTD](overview_ytd.png.png)
 
 ### Overview — MTD (Oct)
-![Overview MTD](images/overview_mtd.png)
+![Overview MTD](overview_mtd.png.png)
 
 ### Branches & Buyers
-![Branches and Buyers](images/branches_buyers.png)
+![Branches and Buyers](branches_buyers.png.png)
 
 ### Models & Comparison
-![Models and Comparison](images/models_comparison.png)
+![Models and Comparison](models_comparison.png.png)
 
 ---
 
@@ -65,10 +65,8 @@ The report is organized into three interactive views with global **YTD (Apr–Oc
 ## 📂 Project Structure
 
 ```text
-sales-mtd-ytd-executive-analysis/
-├── images/
-│   ├── overview_ytd.png
-│   ├── overview_mtd.png
-│   ├── branches_buyers.png
-│   └── models_comparison.png
+├── branches_buyers.png.png
+├── models_comparison.png.png
+├── overview_mtd.png.png
+├── overview_ytd.png.png
 └── README.md
