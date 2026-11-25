@@ -71,9 +71,10 @@ The report is organized into three interactive views with global **YTD (Apr–Oc
 ├── overview_ytd.png.png
 └── README.md
 
-## 🧮 Key Metrics & Formula Logic
 
+🧮 Key Metrics & Formula Logic
 Core KPI and variance calculations implemented across the report:
+
 
 ```dax
 Gross Sales = SUM(Sales[Gross_Amount])
